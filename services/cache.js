@@ -1,18 +1,20 @@
 const mongoose = require('mongoose');
 const redis = require('redis');
 const util = require('util');
+const keys = require('../config/keys');
 
 // const redisUrl = 'redis://127.0.0.1:6379';
 // const client = redis.createClient(redisUrl);
 
 // https://redis.io/docs/getting-started/installation/install-redis-on-windows/#connect-to-redis
 
-const client = redis.createClient({
-    socket: {
-        host: '127.0.0.1',
-        port: 6379
-    }
-});
+// const client = redis.createClient({
+//     socket: {
+//         host: '127.0.0.1',
+//         port: 6379
+//     }
+// });
+const client = redis.createClient(keys.redisUrl);
 
 client.on('error', err => {
     console.log('Error ' + err);
