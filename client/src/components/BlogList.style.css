@@ -1,0 +1,41 @@
+.empty-message{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.card {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 30px;
+}
+
+.card:first-child {
+    margin-top: 20px;
+}
+
+.card-title{
+    font-size: 2.1rem;
+}
+
+.card-content{
+   padding: 0.7rem;
+   border-bottom: 1px solid #e9cccc
+}
+
+.card-content  p {
+    font-size: 1.3rem;
+   margin-top: 0.5rem;
+}
+
+.card-action {
+    padding: 20px;
+}
+
+.card-action > * {
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: orange;
+}

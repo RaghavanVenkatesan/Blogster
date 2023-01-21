@@ -1,0 +1,32 @@
+h5{
+margin: 10px 0;
+font-size: 1.9rem;
+}
+
+.reviewdiv{
+    margin-bottom: 0.7rem;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-flat.yellow{
+   color: white;
+   background-color: #F6BE00;
+   border: none;
+   font-size: 1rem;
+}
+
+.btn-flat.green{
+    color: white;
+    background-color: darkgreen;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn-flat.green >  i{
+    margin-left: 0.75rem;
+    }
+
